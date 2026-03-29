@@ -1,0 +1,18 @@
+[Unit]
+Description=HZS 771 MQTT Bridge
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=christian
+WorkingDirectory=/home/christian/git/hzs771-mqtt-bridge
+EnvironmentFile=/home/christian/git/hzs771-mqtt-bridge/heating-ocr.env
+ExecStart=/home/christian/git/hzs771-mqtt-bridge/venv/bin/python3 /home/christian/git/hzs771-mqtt-bridge/heating_mqtt_bridge.py
+Restart=always
+RestartSec=10
+TimeoutStopSec=30
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target

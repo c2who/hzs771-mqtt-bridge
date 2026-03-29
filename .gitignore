@@ -1,0 +1,11 @@
+.worktrees/
+.worktrees/**
+heating-ocr.env
+
+venv/
+venv/**
+
+CLAUDE.md
+
+.claude/
+.claude/**

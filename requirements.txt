@@ -1,0 +1,16 @@
+attrs==26.1.0
+Automat==25.4.16
+constantly==23.10.4
+hyperlink==21.0.0
+idna==3.11
+Incremental==24.11.0
+packaging==26.0
+paho-mqtt==2.1.0
+pillow==12.1.1
+pycryptodomex==3.23.0
+pytesseract==0.3.13
+tomli==2.4.1
+Twisted==25.5.0
+typing_extensions==4.15.0
+vncdotool==1.2.0
+zope.interface==8.2
